@@ -18,7 +18,7 @@ lista = [{"nome": "Alice", "notas": [8.5, 9.0, 7.5], "curso": "Matemática"},
 		
 
 class TestAprovacao(unittest.TestCase):
-    def teste_maria(self):
+    def teste(self):
         self.assertEqual(modulo_aprovacao.aprovacao(lista), lista)
 
 unittest.main(verbosity=2)
